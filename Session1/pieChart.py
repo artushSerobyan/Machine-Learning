@@ -5,6 +5,6 @@ percentages=[25,30,15,30]
 explode=[0,0.1,0,0]
 colors=['red','blue','green','orange']
 plt.pie(percentages,explode=explode,labels=categories,colors=colors,shadow=True)
-plt.tytle("Percentages Distribution")
+plt.title("Percentages Distribution")
 plt.legend(categories)
 plt.show()
